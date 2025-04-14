@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" type="imagex/png" href="./assets/fatec_ra_metropolitana_sp_capital_zona_sul_br.ico">
+
+  <title>Calculadora de IMC</title>
+</head>
+
+<body>
+  <h1>
+    <a href="/">Calculadora de IMC</a>
+  </h1>
+  <header>
+    <h2>Fatec Zona Sul</h2>
+    <h3>João Vitor Morais Dias - RA: 1371392412023</h2>
+  </header>
+  <div class="container-principal">
+    <div class="descricao">
+      <p>Projeto que realiza o cálculo do IMC (Índice de Massa Corporal) com base no peso e altura informados pelo
+        usuário. 
+        <br>Após o cálculo, o sistema classifica o IMC e exibe o resultado em uma página com uma mensagem
+        positiva e educativa, além de permitir um novo cálculo.</p>
+    </div>
+    <div class="instrucoes">
+      <p>Vá para a Página de Cálculo de IMC, clicando no botão abaixo.<br>
+        Insira seu nome, peso e altura (em cm).<br>
+        Aguarde o resultado do cálculo e confira os dados supracitados na tela.</p>
+      <div class="container-button">
+        <a href="/formulario" class="btn-link">Página de Cálculo</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+<style>
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  body {
+    font-size: 20px;
+    margin-top: 250px;
+
+    background-color: #cccccc;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+  }
+
+  .container-button {
+    margin-top: 40px;
+  }
+
+  .btn-link {
+    border-radius: 20px;
+    padding: 10px;
+
+    color: #000;
+    background-color: #228B22;
+    border: 0.5px solid #000;
+  }
+
+  .btn-link.disabled {
+    background-color: #aaa;
+    pointer-events: none;
+    cursor: default;
+    color: #eee;
+  }
+</style>
+
+<script>
+</script>  
+
+</html>
